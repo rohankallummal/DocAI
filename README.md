@@ -2,7 +2,6 @@
 
 A full-stack RAG (Retrieval-Augmented Generation) application that allows users to upload PDF documents and ask questions about their content.
 
----
 
 ## Features
 
@@ -14,8 +13,6 @@ A full-stack RAG (Retrieval-Augmented Generation) application that allows users 
 - **Session Management** - Reset and upload new documents anytime
 - **Efficient Caching** - Caches embeddings to reduce API calls
 - **Dockerized Vector DB** - Persistent Qdrant storage with Docker
-
----
 
 ## Tech Stack
 
@@ -39,7 +36,6 @@ A full-stack RAG (Retrieval-Augmented Generation) application that allows users 
 
 ---
 
-
 **Flow:**
 1. User uploads PDF → Backend chunks document → Generates embeddings → Stores in Qdrant
 2. User asks question → Backend embeds question → Searches Qdrant → Retrieves relevant chunks → Sends to LLM → Returns answer
@@ -53,8 +49,6 @@ A full-stack RAG (Retrieval-Augmented Generation) application that allows users 
 - **Docker** 
 - **HuggingFace Account** 
 
-
----
 
 ## Installation
 
@@ -102,7 +96,6 @@ docker run -d --name qdrant -p 6333:6333 -v "%cd%/qdrant_storage:/qdrant/storage
 docker run -d --name qdrant -p 6333:6333 -v "$(pwd)/qdrant_storage:/qdrant/storage" qdrant/qdrant
 ```
 
----
 
 ## Configuration
 
