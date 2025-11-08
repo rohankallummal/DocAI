@@ -92,8 +92,6 @@ npm install
 # Windows (CMD):
 docker run -d --name qdrant -p 6333:6333 -v "%cd%/qdrant_storage:/qdrant/storage" qdrant/qdrant
 
-# Linux/Mac:
-docker run -d --name qdrant -p 6333:6333 -v "$(pwd)/qdrant_storage:/qdrant/storage" qdrant/qdrant
 ```
 
 
@@ -112,7 +110,7 @@ HF_TOKEN= Your Access Token
 
 ## Running the Application
 
-### Step 1: Start Qdrant (if not already running)
+### Step 1: Start Qdrant
 
 ```bash
 # Check if Qdrant is running
