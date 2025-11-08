@@ -2,6 +2,20 @@
 
 A full-stack RAG (Retrieval-Augmented Generation) application that allows users to upload PDF documents and ask questions about their content.
 
+# Preview
+
+<img width="2559" height="1461" alt="image" src="https://github.com/user-attachments/assets/3ab2d7b3-2419-4752-b1f8-f20344a11e62" />
+
+---
+
+<img width="2550" height="1459" alt="image" src="https://github.com/user-attachments/assets/d9ced52f-6ca6-4711-b6cf-874b8e31fe53" />
+
+---
+
+<img width="2557" height="1455" alt="image" src="https://github.com/user-attachments/assets/08f166b8-cdf1-44a6-9c3a-dff720af58bd" />
+
+---
+
 
 ## Features
 
